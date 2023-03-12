@@ -47,7 +47,7 @@ export default function NoteForm({
           </Col>
           <Col>
             <Form.Group controlId='tags'>
-              <Form.Label>Tags</Form.Label>
+              <Form.Label>Tags(Create new tags just by typing)</Form.Label>
               <CreatableReactSelect
                 isMulti
                 onChange={(tags) => {
@@ -73,7 +73,7 @@ export default function NoteForm({
           </Col>
         </Row>
         <FormGroup controlId='markdown'>
-          <Form.Label>Body</Form.Label>
+          <Form.Label>Body(Type in Markdown)</Form.Label>
           <Form.Control defaultValue={markdown} ref={markdownRef} required as='textarea' rows={15}/>
         </FormGroup>
         <Stack direction='horizontal' gap={2} className='justify-content-end'>
