@@ -43,7 +43,8 @@ export function NoteList({
     <>
       <Row className='align-items-center mb-4'>
         <Col>
-          <h1>Notes</h1>
+          <h1>Dev Markdown Notes</h1>
+          <h6>Uses browser local storage</h6>
         </Col>
         <Col xs='auto'>
           <Stack gap={2} direction='horizontal'>
